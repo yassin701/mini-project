@@ -23,7 +23,7 @@ body {
     border: none;
 }
 
-#ajoutName{
+#ajoutName,#closeModal{
         padding:10px 25px;
         border-radius: 8px;
         background-color: #D6CBCB;
@@ -35,7 +35,8 @@ body {
         transition: 0.2s;
 }
 
-#ajoutName:hover{
+#ajoutName:hover,
+#closeModal:hover{
    color:#D6CBCB ;
    background-color: #FFF;
 }
@@ -89,5 +90,21 @@ body {
 #Choix:hover{
    color:#D6CBCB ;
    background-color: #FFF;
+}
+
+
+
+
+#modal{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(230, 224, 224);
+  border: none;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
 }
 

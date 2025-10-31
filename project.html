@@ -18,13 +18,20 @@
     </div>
          <div id="box">
             <ul id="list">
-               
-                
-              
+
             </ul>
-             <div class="btn">
-          <button id="Choix">choisir un nom </button>
-            </div>
+                <div class="btn">
+                <button id="Choix" onclick="AficheNum()">choisir un nom </button>
+              </div>
+         </div>
+
+         <div id="modal">
+          <h3 class="modal-inner">
+            The chosen name is:
+          </h3>
+          <p id="randomName"></p>
+          <button id="closeModal" onclick="closeModal()">Close</button>
+
          </div>
            
 </body>
