@@ -1,0 +1,93 @@
+body {
+    background-color:#F5EBEB ;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px ;
+}
+.inputBtn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+   
+}
+#myInput{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    border: none;
+}
+
+#ajoutName{
+        padding:10px 25px;
+        border-radius: 8px;
+        background-color: #D6CBCB;
+        color: #fff;
+        font-weight: bolder;
+        font-family: initial;
+        border: none;
+        cursor: pointer;
+        transition: 0.2s;
+}
+
+#ajoutName:hover{
+   color:#D6CBCB ;
+   background-color: #FFF;
+}
+
+#list{
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 135px;
+  background-color: #999999;
+ }
+
+#box ul{
+ width: 20%;
+ margin: 20px auto;
+ max-width: auto;
+ max-height: auto;
+ border-bottom-left-radius:0;
+
+ }
+
+ li{
+    background-color: #c6deed88;
+    display: grid;
+    flex-direction: column;
+    margin-bottom:10px;
+    padding: 10px ;
+    border-radius:9px ;
+ }
+
+ .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Choix{
+    padding: 15px;
+    background-color: #D6CBCB;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+#Choix:hover{
+   color:#D6CBCB ;
+   background-color: #FFF;
+}
+
