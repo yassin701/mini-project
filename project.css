@@ -101,10 +101,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(230, 224, 224);
+  background: rgb(221, 214, 214);
   border: none;
-  padding: 50px;
+  padding: 90px;
   border-radius: 10px;
   text-align: center;
 }
+
 

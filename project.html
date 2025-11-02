@@ -4,35 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
-    <script src="project.js"></script>
     <title>Document</title>
 </head>
 <body>
      <div class="item">
-       <h1 id="name">Enter Your Name</h1>
-    </div>
+        <h1>Enter Your Name</h1>
+     </div>
 
     <div class="inputBtn">
        <input type="text" id="myInput" placeholder="Enter your name">
        <button id="ajoutName" onclick="AjoutBtn()">Ajouter</button>
     </div>
+
          <div id="box">
-            <ul id="list">
-
-            </ul>
-                <div class="btn">
-                <button id="Choix" onclick="AficheNum()">choisir un nom </button>
-              </div>
+               <ul id="list">
+               
+               </ul>
+               <div class="btn">
+               <button id="Choix" onclick="AficheNum()">choisir un nom </button>
+               </div>
          </div>
 
+         
          <div id="modal">
-          <h3 class="modal-inner">
-            The chosen name is:
-          </h3>
-          <p id="randomName"></p>
-          <button id="closeModal" onclick="closeModal()">Close</button>
-
+               <h3 class="modal-inner">
+                  The chosen name is:
+               </h3>
+               <p id="randomName"></p>
+               <button id="closeModal" onclick="closeModal()">Close</button>
          </div>
-           
+        
+
+
+          <script src="project.js"></script>
 </body>
 </html>
